@@ -2,6 +2,7 @@
 <html>
 <head>
 	<script src="phonegap.js"></script>
+	<script type="text/javascript" src="cordova.js"></script>
 	<script src="jqm.js"></script>
 	<style type="text/css">
 
@@ -16,13 +17,14 @@
 
 	$(document).ready(function(){
 
+		alert("JQ WORKING")
 	    document.addEventListener("deviceready",onDeviceReady,false);       
 	
 	});
 
 	function onDeviceReady(){
 	    
-	    alert("DOCYME")
+	    alert("ONDOCUMENTREADY YAY")
 
 	}
 
